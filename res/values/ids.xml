@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sub" type="id" />
+    <item name="subject_login" type="id" />
+    <item name="Bsubject" type="id" />
+    <item name="l1" type="id"/>
+    <item name="d1" type="id">d1</item>
+    <item name="about" type="id"/>
+    <item name="activity_main" type="id">success</item>
+    <item name="account" type="id"/>
+    <item name="activity_Success" type="id">Sucess</item>
+    <item name="webview" type="id"/>
+    <item name="adView" type="id"/>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:bwq="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/google"
+        android:icon="@drawable/goog"
+        android:title="go to website"/>
+
+
+    <item android:id="@+id/ID"
+          android:icon="@drawable/profile"
+        android:title="Get Username"
+         />
+
+
+    <item android:id="@+id/message"
+          android:icon="@drawable/ic_sms"
+
+          android:title="Sms"/>
+
+    <item android:id="@+id/myface"
+          android:icon="@drawable/face44"
+          android:title="FaceBook"/>
+
+
+    <item android:id="@+id/insta"
+          android:icon="@drawable/instagram51"
+          android:title="instagram"/>
+
+
+
+
+    <item android:id="@+id/phone"
+          android:icon="@drawable/ic_phone"
+          android:title="Call Now"/>
+
+
+
+<item android:id="@+id/rate"
+    android:icon="@drawable/ic_star"
+    android:title="Ratings and Reviews"/>
+
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share App"/>
+
+
+
+
+
+
+</menu>

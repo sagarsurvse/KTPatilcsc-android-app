@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bcs.osm.ktpatilofbcsobad">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="KTpatilcsc Osmanabad"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name="com.bcs.osm.ktpatilofbcsobad.Restarter"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="restartservice" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.bcs.osm.ktpatilofbcsobad.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.bcs.osm.ktpatilofbcsobad.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.SuccessActivity"/>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.LoginActivity"/>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.ChattingActivity"/>
+        <activity
+            android:name="com.bcs.osm.ktpatilofbcsobad.flash_scree"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.bcs.osm.ktpatilofbcsobad.YourService"
+            android:enabled="true" >
+        </service>
+
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.career">
+
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.About">
+        </activity>
+
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.program">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.Subject">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.Bcs">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.Mcs">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.Criateria">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.PriviousQuestion">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.qubcs">
+        </activity>
+        <activity android:name="com.bcs.osm.ktpatilofbcsobad.qumcs">
+        </activity>
+
+
+    </application>
+
+
+</manifest>
